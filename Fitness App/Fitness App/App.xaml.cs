@@ -1,8 +1,8 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Fitness_App.Services;
-using Fitness_App.Views;
+//using Fitness_App.Services;
+//using Fitness_App.Views;
 
 namespace Fitness_App
 {
@@ -13,8 +13,8 @@ namespace Fitness_App
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new MainPage();
+            //DependencyService.Register<MockDataStore>();
+            //MainPage = new MainPage();
         }
 
         protected override void OnStart()
