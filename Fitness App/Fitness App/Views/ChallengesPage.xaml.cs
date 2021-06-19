@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Fitness App.Views
+namespace FitnessApp.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 public partial class ChallengesPage : ContentPage
